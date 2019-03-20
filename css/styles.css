@@ -1,5 +1,5 @@
 body {
-  colour:
+  colour: green;
   font-family:
 }
 
@@ -10,12 +10,23 @@ h1 {
 
 h2 {
   color: rgb(148, 148, 148);
-  font-family:
+  font-family: serif;
+  margin: auto;
+  text-align: center;
 }
 
-h3 {
-  color: rgb(15, 222, 240)
-  font-family:
+ul {
+     padding: 10px;
+     background: rgb(175, 220, 230);
+   }
+
+li {
+  display: inline;
+   padding: 0px 20px 0px 20px;
+   background-color: rgb(175, 220, 230);
 }
 
-b
+img {
+  border: black;
+
+}
