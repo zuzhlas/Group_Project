@@ -1,24 +1,33 @@
 body {
-  colour:
-  font-family: Marlett;
+  colour: green;
+  font-family:
 }
 
 h1 {
   color: rgb(175, 220, 230);
-  font-family: Marlett;
-  text-align: centre;
+  font-family:
 }
 
 h2 {
   color: rgb(148, 148, 148);
-  font-family: Marlett;
-  text-align: centre;
+  font-family: serif;
+  margin: auto;
+  text-align: center;
 }
 
-h3 {
-  color: rgb(15, 222, 240)
-  font-family: Marlett;
-  text-align: centre;
+ul {
+     padding: 10px;
+     background: rgb(175, 220, 230);
+   }
+
+li {
+  display: inline;
+   padding: 0px 20px 0px 20px;
+   background-color: rgb(175, 220, 230);
 }
 
-b
+
+img {
+  border: black;
+
+}
