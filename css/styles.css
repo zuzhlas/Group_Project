@@ -26,6 +26,10 @@ li {
    background-color: rgb(175, 220, 230);
 }
 
+input[type="submit"]{
+  background-color: rgb(100, 150, 230);
+  text-decoration-color: white
+}
 
 img {
   border: black;
