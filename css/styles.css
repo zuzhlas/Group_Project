@@ -40,7 +40,16 @@ footer {
   padding: 1rem;
   background-color: rgb(175, 220, 230);
   text-align: center;
-  list-style: none;
+  height: 2.5rem;
+}
+
+.page-container{
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  padding-bottom: 2.5rem;
 }
 li{
   display: inline;
