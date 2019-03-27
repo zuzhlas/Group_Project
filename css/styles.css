@@ -58,14 +58,9 @@ li{
   padding-right: 20px;
 }
 
-<<<<<<< HEAD
-input[type="submit"]{
-  background-color: rgb(100, 150, 230);
-  text-decoration-color: white
-}
-=======
+
 * {box-sizing: border-box;}
->>>>>>> master
+
 
 .img-magnifier-container {
   position: relative;
