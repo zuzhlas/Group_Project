@@ -1,11 +1,14 @@
 body {
   colour: green;
   font-family:
+  padding-top: 5rem;
 }
 
 h1 {
   color: rgb(175, 220, 230);
-  font-family:
+  font-family: georgia;
+  font-size: 40pt;
+  padding-left: 2.5rem;
 }
 
 h2 {
@@ -15,19 +18,91 @@ h2 {
   text-align: center;
 }
 
-ul {
-     padding: 10px;
-     background: rgb(175, 220, 230);
-   }
-
-li {
-  display: inline;
-   padding: 0px 20px 0px 20px;
-   background-color: rgb(175, 220, 230);
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+ margin-right: auto;
 }
 
+* {box-sizing: border-box;}
 
-img {
-  border: black;
+.img-magnifier-container {
+  position: relative;
+}
+.img-magnifier-glass {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+.bg{
+  background-color: rgb(175, 220, 230);
+}
 
+.navbar{
+  font-family: georgia;
+  padding-left: 2.5rem;
+}
+.navbar-home {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 16px;
+}
+.navbar-home:hover {
+  color: black;
+  background-color: lightgrey;
+}
+.navbar-about {
+  color: black;
+  font-size: 20px;
+  border: none;
+  padding: 16px;
+}
+.navbar-about:hover {
+  color: black;
+  background-color: lightgrey;
+}
+.dropbtn {
+  background-color: rgb(175, 220, 230);
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  font-family: georgia;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgb(175, 220, 230);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-menu a:hover {
+  background-color: lightgrey;
+}
+.dropdown:hover .dropdown-menu {display: block;}
+.dropdown:hover .dropbtn {background-color: lightgrey;}
+
+.btn {
+  color: black;
+  background-color: darkgrey;
+  border: none;
 }
