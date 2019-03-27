@@ -26,6 +26,13 @@ img {
  margin-right: auto;
 }
 
+Article {
+  text-align: left;
+padding-left: 50px;
+padding-right: 750px;
+padding-top: 10px
+}
+
 * {box-sizing: border-box;}
 
 .img-magnifier-container {
